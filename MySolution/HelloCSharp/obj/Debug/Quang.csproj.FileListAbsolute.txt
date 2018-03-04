@@ -1,0 +1,6 @@
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\obj\Debug\Quang.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\obj\Debug\HelloCSharp.exe
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\obj\Debug\HelloCSharp.pdb
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\bin\Debug\HelloCSharp.exe
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\bin\Debug\HelloCSharp.pdb
+C:\Users\Admin\source\repos\MySolution\HelloCSharp\obj\Debug\Quang.csprojResolveAssemblyReference.cache
