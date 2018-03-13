@@ -1,0 +1,31 @@
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\bin\Debug\SendKeys.exe.config
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\bin\Debug\SendKeys.exe
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\bin\Debug\SendKeys.pdb
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\MainWindow.g.cs
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\App.g.cs
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys_MarkupCompile.cache
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys_MarkupCompile.lref
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\MainWindow.baml
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys.g.resources
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys.Properties.Resources.resources
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys.csproj.GenerateResource.Cache
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys.exe
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\SendKeys\obj\Debug\SendKeys.pdb
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\bin\SendKeys.exe.config
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\bin\SendKeys.exe
+E:\Hoc Tap\Tu sach\C#\CSharp\SendKeys\bin\SendKeys.pdb
+C:\Users\Admin\source\repos\SendKeys\bin\SendKeys.exe.config
+C:\Users\Admin\source\repos\SendKeys\bin\SendKeys.exe
+C:\Users\Admin\source\repos\SendKeys\bin\SendKeys.pdb
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys_MarkupCompile.cache
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys_MarkupCompile.lref
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\MainWindow.baml
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.g.resources
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.Properties.Resources.resources
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.csproj.GenerateResource.Cache
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.exe
+C:\Users\Admin\source\repos\SendKeys\SendKeys\obj\Debug\SendKeys.pdb
