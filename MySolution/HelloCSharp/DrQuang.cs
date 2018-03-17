@@ -12,38 +12,50 @@ using System.Threading;
 
 namespace Quang
 {
-    public delegate void MyDelegate1(int p1);
-    class TestCsharp
+    public delegate void MyEventHandler(string msg);
+    public class Window
     {
-        public static void Main(string[] args)
-        {
-            Bell b = new Bell();
-            b.Alarm += AlarmHandler;
-            b.Alarm += AlarmHandler2;
-            b.OnAlarm();
-            Console.ReadKey();
-        }
+        public event MyEventHandler Click;
 
-        private static void B_Alarm(object sender, EventArgs e)
+        public Window (int top, int left)
         {
-            throw new NotImplementedException();
+            this.top = top;
+            this.left = left;
         }
-
-        static void AlarmHandler(object sender, EventArgs e)
+        public virtual void DrawWindow() { }
+        public void FireEvent()
         {
-            Console.WriteLine("Ring Ring Cuckoo!!\a");
+            if (Click != null)
+                Click("Event fire");
         }
-        static void AlarmHandler2(object sender, EventArgs e)
-        {
-            Console.WriteLine("Day di hoc de");
-        }
+        int top;
+        private int left;
     }
-    class Bell
+    public class ListBox : Window
     {
-        public event EventHandler Alarm;
-        public void OnAlarm()
+        public ListBox(int top, int left) : base(top, left) { }
+        public ListBox(int top, int left, string theContents) : base(top, left)
         {
-            if (Alarm != null) Alarm(this,EventArgs.Empty);
+            mListBoxContents = theContents;
+        }
+        public override void DrawWindow()
+        {
+            Console.WriteLine("DrawWindow's ListBox");
+        }
+        private string mListBoxContents;
+        class TestCsharp
+        {
+            public static void Main(string[] args)
+            {
+                Window w = new Window(100, 100);
+                w.Click += w_Click;
+                w.FireEvent();
+                Console.ReadKey();
+            }
+            static void w_Click(string msg)
+            {
+                Console.WriteLine(msg);
+            }
         }
     }
 }
