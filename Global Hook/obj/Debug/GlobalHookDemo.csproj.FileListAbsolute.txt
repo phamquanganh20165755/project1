@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Global Hook\bin\Debug\GlobalHookDemo.XML
+C:\Users\Admin\source\repos\Global Hook\bin\Debug\GlobalHookDemo.exe
+C:\Users\Admin\source\repos\Global Hook\bin\Debug\GlobalHookDemo.pdb
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.MainForm.resources
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.exe
+C:\Users\Admin\source\repos\Global Hook\obj\Debug\GlobalHookDemo.pdb

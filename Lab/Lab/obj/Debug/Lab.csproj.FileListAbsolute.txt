@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Lab\Lab\bin\Debug\Lab.exe
+C:\Users\Admin\source\repos\Lab\Lab\bin\Debug\Lab.pdb
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.Form1.resources
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.Properties.Resources.resources
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.exe
+C:\Users\Admin\source\repos\Lab\Lab\obj\Debug\Lab.pdb

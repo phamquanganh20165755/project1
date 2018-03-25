@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace WindowsFormsApp1
 {
@@ -45,11 +46,22 @@ namespace WindowsFormsApp1
         {
 
         }
-        int i = 1;
-        private void fMain_MouseClick(object sender, MouseEventArgs e)
+
+        private void fMain_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You've clicked on this form " + i + " times!");
-            i++;
+            MessageBox.Show("Clicked!");
+            Form2 f = new Form2();
+            f.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Hello";
+        }
+
+        private void fMain_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MessageBox.Show("You've just press a key!");
         }
     }
 }
