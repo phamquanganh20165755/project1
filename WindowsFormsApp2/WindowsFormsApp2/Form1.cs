@@ -124,7 +124,7 @@ namespace WindowsFormsApp2
                 MyMouseHookStruct.pt.y.ToString("d");
                 //You must get the active form because it is a static function.
                 Form tempForm = Form.ActiveForm;
-
+                
                 //Set the caption of the form.
                 tempForm.Text = strCaption;
                 return CallNextHookEx(hHook, nCode, wParam, lParam);
