@@ -12,7 +12,11 @@ namespace Y2KeyBoard_Hook_Low_Level
 {
     class Y2KeyBoardHook
     {
+        //Các hàm và hằng Win32 API
         #region Win32 API Functions and Constants
+
+        //Import các thư viện dll vào để thêm 3 hàm Win32 API cần thiết
+        //Thêm tham số SetLastError để lấy được lỗi nếu cài đặt hook thất bại
 
         [DllImport("user32.dll", SetLastError = true)]
         private static extern IntPtr SetWindowsHookEx(int idHook,
@@ -28,8 +32,10 @@ namespace Y2KeyBoard_Hook_Low_Level
         [DllImport("kernel32.dll")]
         private static extern IntPtr GetModuleHandle(string lpModuleName);
 
+        //Hằng số xác định kiểu hook
         private const int WH_KEYBOARD_LL = 13;
 
+        //Giá trị hai thông điệp KeyUp và KeyDown
         private const int WM_KEYDOWN = 0x0100;
         private const int WM_KEYUP = 0x101;
 
@@ -38,8 +44,10 @@ namespace Y2KeyBoard_Hook_Low_Level
         private KeyboardHookDelegate _hookProc;
         private IntPtr _hookHandle = IntPtr.Zero;
 
+        //Tạo một delegate tương ứng với nhiệm vụ "con trỏ hàm"
         public delegate IntPtr KeyboardHookDelegate(int nCode, IntPtr wParam, IntPtr lParam);
 
+        //Cấu trúc lưu thông tin sự kiện bàn phím mức low-level
         [StructLayout(LayoutKind.Sequential)]
         public struct KeyboardHookStruct
         {
