@@ -1,6 +1,0 @@
-Thong tin log:
-
-Nhiet do: 100
-Ap suat: 12
-
-Thong bao: OK!
