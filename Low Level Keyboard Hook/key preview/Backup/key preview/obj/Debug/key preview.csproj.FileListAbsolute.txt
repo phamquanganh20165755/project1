@@ -1,9 +1,0 @@
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\bin\Debug\key preview.exe
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\bin\Debug\key preview.pdb
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key preview.csprojResolveAssemblyReference.cache
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key_preview.Form1.resources
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key_preview.Properties.Resources.resources
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key preview.csproj.GenerateResource.cache
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key preview.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key preview.exe
-C:\Users\Admin\source\repos\Low Level Keyboard Hook\key preview\Backup\key preview\obj\Debug\key preview.pdb
