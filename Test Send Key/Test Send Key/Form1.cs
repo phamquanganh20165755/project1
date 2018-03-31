@@ -23,7 +23,7 @@ namespace Test_Send_Key
         
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            SendKeys.SendWait("a  ");
+            SendKeys.SendWait("1 2 3 1");
             label1.Text = textBox1.Text;
         }
 
