@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\bin\Debug\Test Send Key.exe
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\bin\Debug\Test Send Key.pdb
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test Send Key.csprojResolveAssemblyReference.cache
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test_Send_Key.Form1.resources
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test_Send_Key.Properties.Resources.resources
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test Send Key.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test Send Key.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test Send Key.exe
+C:\Users\Admin\source\repos\Test Send Key\Test Send Key\obj\Debug\Test Send Key.pdb
