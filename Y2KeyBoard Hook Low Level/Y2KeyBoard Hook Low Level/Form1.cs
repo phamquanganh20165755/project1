@@ -27,6 +27,8 @@ namespace Y2KeyBoard_Hook_Low_Level
             _keyboardHook = new Y2KeyBoardHook();
             _keyboardHook.Install();
 
+            //e.KeyCode: Lấy phím từ sự kiện nhấn hay nhả phím
+            //listBox1.Items.Add: Ghi lại các sự kiện đó
             _keyboardHook.KeyDown += (sender, e) =>
             {
                 listBox1.Items.Add("KeyDown: " + e.KeyCode);
