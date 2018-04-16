@@ -1,9 +1,0 @@
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\bin\Debug\Y2KeyBoard Hook Low Level.exe
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\bin\Debug\Y2KeyBoard Hook Low Level.pdb
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard Hook Low Level.csprojResolveAssemblyReference.cache
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard_Hook_Low_Level.Form1.resources
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard_Hook_Low_Level.Properties.Resources.resources
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard Hook Low Level.csproj.GenerateResource.cache
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard Hook Low Level.csproj.CoreCompileInputs.cache
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard Hook Low Level.exe
-C:\Users\Admin\source\repos\Y2KeyBoard Hook Low Level\Y2KeyBoard Hook Low Level\obj\Debug\Y2KeyBoard Hook Low Level.pdb
