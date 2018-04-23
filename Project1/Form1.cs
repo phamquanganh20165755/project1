@@ -27,6 +27,7 @@ namespace Project1
             OpenForm();
         }
 
+<<<<<<< HEAD
         void OpenForm()
         {
             if (checkBox1.Checked == true)
@@ -48,6 +49,11 @@ namespace Project1
             {
                 MessageBox.Show("Bạn chưa chọn chức năng", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+=======
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            SendKeys.Send("Hello");
+>>>>>>> f24581e35b522bf99ec8167ceb2c21ff469c30fa
         }
     }
 }
