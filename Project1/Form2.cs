@@ -18,15 +18,23 @@ namespace Project1
             InitializeComponent();
             keyBoardHook = new KeyBoardHook();
             keyBoardHook.Install();
+<<<<<<< HEAD
             //keyBoardHook.KeyPress += new KeyPressEventHandler(MyKeyPress);
         }
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+=======
+            keyBoardHook.KeyPress += new KeyPressEventHandler(MyKeyPress);
+        }
+        
+        public void MyKeyPress(object sender, KeyPressEventArgs e)
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
         {
             int c = (int)e.KeyChar;
             c++;
             e.KeyChar = (char)c;
         }
+<<<<<<< HEAD
 
         /*public void MyKeyPress(object sender, KeyPressEventArgs e)
         {
@@ -36,5 +44,7 @@ namespace Project1
         }*/
 
 
+=======
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
     }
 }

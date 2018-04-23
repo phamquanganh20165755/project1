@@ -49,6 +49,10 @@
             // 
             // label2
             // 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.Location = new System.Drawing.Point(31, 93);
@@ -105,6 +109,17 @@
             this.checkBox3.TabIndex = 8;
             this.checkBox3.Text = "Gõ Tiếng Việt";
             this.checkBox3.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
+=======
+=======
+            this.textBox1.Location = new System.Drawing.Point(51, 87);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(419, 235);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+>>>>>>> f24581e35b522bf99ec8167ceb2c21ff469c30fa
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
             // 
             // Form1
             // 

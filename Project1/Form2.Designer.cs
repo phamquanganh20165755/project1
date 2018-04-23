@@ -44,12 +44,19 @@
             // 
             // textBox1
             // 
+<<<<<<< HEAD
             this.textBox1.Location = new System.Drawing.Point(46, 113);
+=======
+            this.textBox1.Location = new System.Drawing.Point(46, 125);
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(370, 141);
             this.textBox1.TabIndex = 3;
+<<<<<<< HEAD
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
+=======
+>>>>>>> 99a430858108137c996863e7d58d9dfe33ef6ce8
             // 
             // Form2
             // 
