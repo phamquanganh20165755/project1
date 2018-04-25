@@ -15,7 +15,7 @@ namespace Project1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormGiaoDien());
+            Application.Run(new Form1());
         }
     }
 }
