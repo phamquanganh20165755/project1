@@ -1,5 +1,4 @@
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.csprojResolveAssemblyReference.cache
-c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.Form1.resources
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.Properties.Resources.resources
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.csproj.GenerateResource.cache
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.csproj.CoreCompileInputs.cache
@@ -7,3 +6,7 @@ c:\users\admin\source\repos\Project1\Project1\bin\Debug\Project1.exe
 c:\users\admin\source\repos\Project1\Project1\bin\Debug\Project1.pdb
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.exe
 c:\users\admin\source\repos\Project1\Project1\obj\Debug\Project1.pdb
+C:\Users\Admin\source\repos\Project1\Project1\obj\Debug\Project1.FormGiaoDien.resources
+C:\Users\Admin\source\repos\Project1\Project1\obj\Debug\Project1.FormTangASCII.resources
+C:\Users\Admin\source\repos\Project1\Project1\obj\Debug\Project1.FormDaoNguocChuoi.resources
+C:\Users\Admin\source\repos\Project1\Project1\obj\Debug\Project1.FormGoTiengViet.resources
