@@ -24,8 +24,8 @@ namespace Project1
 
         #region Các biến và đối tượng
         char KiTuTruoc;
-        FileStream Log;
-        StreamWriter WriteToLog;
+        FileStream LogTXT;
+        StreamWriter WriteToLogTXT;
         UserActivityHook ThucHienHook;
         ChuyenDoiTiengViet ConvertToVN;
         #endregion
@@ -39,8 +39,8 @@ namespace Project1
         {
             InitializeComponent();
             KiTuTruoc = '\0';
-            Log = new FileStream("log.txt", FileMode.Create, FileAccess.Write);
-            WriteToLog = new StreamWriter(Log);
+            LogTXT = new FileStream("log.txt", FileMode.Create, FileAccess.Write);
+            WriteToLogTXT = new StreamWriter(LogTXT);
             ConvertToVN = new ChuyenDoiTiengViet();
         }
 
@@ -72,7 +72,7 @@ namespace Project1
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void buttonStop_Click(object sender, EventArgs e)
+        private void ButtonStop_Click(object sender, EventArgs e)
         {
             ThucHienHook.Stop();
             NotifyIconThongBao.ShowBalloonTip(10000, "Thông báo!", 
@@ -85,8 +85,8 @@ namespace Project1
         /// </summary>
         private void GoTiengViet(object sender, KeyPressEventArgs e)
         {
-            WriteToLog.Write(e.KeyChar);
-            WriteToLog.Flush();
+            WriteToLogTXT.Write(e.KeyChar);
+            WriteToLogTXT.Flush();
             if (KiTuTruoc == 'a')    ConvertToVN.KiemTraKiTuA(e.KeyChar);
             if (KiTuTruoc == 'o')    ConvertToVN.KiemTraKiTuO(e.KeyChar);
             if (KiTuTruoc == 'e')    ConvertToVN.KiemTraKiTuE(e.KeyChar);
