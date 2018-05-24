@@ -18,8 +18,9 @@ namespace Project1
         /// Class này sẽ thực hiện các chức năng gõ tiếng Việt, ghi các kí tự đã gõ
         /// ra file log.txt, hiện thông báo bởi cho người dùng biết trạng thái của
         /// chương trình (có đang gõ Tiếng Việt hay không, thông tin về chương trình)
-        /// Biến prev dùng để xác định xem kí tự ngay trước kí tự vừa gõ
-        /// Sử dụng các class File Stream, StreamWriter, UserActivityHook, ChuyenDoiTiengViet
+        /// Biến prev (kiểu char)dùng để xác định xem kí tự ngay trước kí tự vừa gõ
+        /// Sử dụng các class File Stream, StreamWriter, UserActivityHook 
+        /// (lấy từ namespace gma.System.Windows), ChuyenDoiTiengViet
         /// </summary>
 
         #region Các biến và đối tượng
@@ -93,10 +94,10 @@ namespace Project1
             if (KiTuTruoc == 'i')    ConvertToVN.KiemTraKiTuI(e.KeyChar);
             if (KiTuTruoc == 'u')    ConvertToVN.KiemTraKiTuU(e.KeyChar);
             /*Nếu có sự thay đổi kí tự thì hủy việc in ra kí tự cũ*/
-            if (ConvertToVN.flag == true)
+            if (ConvertToVN.IsChanged == true)
             {
                 e.Handled = true;
-                ConvertToVN.flag = false;
+                ConvertToVN.IsChanged = false;
             }
             KiTuTruoc = e.KeyChar;
         }
