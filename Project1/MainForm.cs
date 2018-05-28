@@ -18,8 +18,8 @@ namespace Project1
         /// Class này sẽ thực hiện các chức năng gõ tiếng Việt, ghi các kí tự đã gõ
         /// ra file log.txt, hiện thông báo bởi cho người dùng biết trạng thái của
         /// chương trình (có đang gõ Tiếng Việt hay không, thông tin về chương trình)
-        /// Biến prev (kiểu char)dùng để xác định xem kí tự ngay trước kí tự vừa gõ
-        /// Sử dụng các class File Stream, StreamWriter, UserActivityHook 
+        /// Biến prev (kiểu char) dùng để xác định xem kí tự ngay trước kí tự vừa gõ
+        /// Sử dụng các class FileStream, StreamWriter, UserActivityHook 
         /// (lấy từ namespace gma.System.Windows), ChuyenDoiTiengViet
         /// </summary>
 
@@ -71,8 +71,6 @@ namespace Project1
         /// Khi nhấn Stop
         /// thì dừng gõ Tiếng Việt và hiện thông báo
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void ButtonStop_Click(object sender, EventArgs e)
         {
             ThucHienHook.Stop();

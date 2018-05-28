@@ -20,7 +20,7 @@ namespace Project1
         /// Kiểm tra kí tự nếu kí tự trước đó là a
         /// </summary>
         /// <param name="KiTuVuaGo"></param>
-        /// ki_tu_cuoi_cung là kí tự vừa được gõ
+        /// KiTuVuaGo là kí tự vừa được gõ
         public void KiemTraKiTuA(char KiTuVuaGo)
         {
             if (KiTuVuaGo == 's')
@@ -79,7 +79,7 @@ namespace Project1
         /// Kiểm tra kí tự nếu kí tự trước đó là o
         /// </summary>
         /// <param name="KiTuVuaGo"></param>
-        /// ki_tu_cuoi_cung là kí tự vừa được gõ
+        /// KiTuVuaGo là kí tự vừa được gõ
         public void KiemTraKiTuO(char KiTuVuaGo)
         {
             if (KiTuVuaGo == 's')
@@ -138,7 +138,7 @@ namespace Project1
         /// Kiểm tra kí tự nếu kí tự trước đó là e
         /// </summary>
         /// <param name="KiTuVuaGo"></param>
-        /// ki_tu_cuoi_cung là kí tự vừa được gõ
+        /// KiTuVuaGo là kí tự vừa được gõ
         public void KiemTraKiTuE(char KiTuVuaGo)
         {
             if (KiTuVuaGo == 's')
@@ -190,7 +190,7 @@ namespace Project1
         /// Kiểm tra kí tự nếu kí tự trước đó là i
         /// </summary>
         /// <param name="KiTuVuaGo"></param>
-        /// ki_tu_cuoi_cung là kí tự vừa được gõ
+        /// KiTuVuaGo là kí tự vừa được gõ
         public void KiemTraKiTuI(char KiTuVuaGo)
         {
             if (KiTuVuaGo == 's')
@@ -235,7 +235,7 @@ namespace Project1
         /// Kiểm tra kí tự nếu kí tự trước đó là u
         /// </summary>
         /// <param name="KiTuVuaGo"></param>
-        /// ki_tu_cuoi_cung là kí tự vừa được gõ
+        /// KiTuVuaGo là kí tự vừa được gõ
         public void KiemTraKiTuU(char KiTuVuaGo)
         {
             if (KiTuVuaGo == 's')
